@@ -1,0 +1,22 @@
+# This file is the 42sh shell config file
+# You can custom it yourself
+# /!\ Do it only if you are sure that you know what you are doing
+
+# Standard aliases
+alias la 'ls -A'
+alias l 'ls -F --color'
+alias ll 'ls -l -F --color'
+alias emacs 'emacs -nw'
+alias ne 'emacs'
+alias cd.. 'cd ..'
+alias .. 'cd ..'
+alias tree 'tree -C'
+
+# Makefile aliases
+alias mk 'make'
+alias mr 'make re'
+alias mc 'make clean'
+alias mf 'make fclean'
+
+# Prompt custom
+#set prompt='\033[44m[\$USER]\033[0m in \033[34;1m\$PWD\n\033[32m$>\033[0m '
